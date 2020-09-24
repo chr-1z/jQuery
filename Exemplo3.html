@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo 3</title>
+    </head>
+    <body>
+        <h1> Exemplo 3</h1>
+
+        <p> jQuery é uma biblioteca JavaScript! </p>
+        <p> jQuery é de código aberto e livre para usar! </p>
+        <p> jQuery aumenta a produtividade de um projeto! </p>
+
+        <script src=https://code.jquery.com/jquery-3.5.1.min.js></script>
+        
+        <script>
+            $(document).ready(function(){
+                
+                $("p").on("click", function(){
+                    alert("Click efetuado!");
+                });
+                
+            });
+        </script>
+    </body>
+</html>
